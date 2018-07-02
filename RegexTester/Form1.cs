@@ -110,5 +110,10 @@ namespace RegexTester
 
 			TextOfRegexRichTextBox.Text = $"{beforeText}{startOfText}{middleOfText}{endOfText}{afterText}";
 		}
+
+		private void ShowSpecialSymbolsCheckBox_CheckStateChanged_1(object sender, EventArgs e)
+		{
+			TextForTestingRichTextBox.ReadOnly = ShowSpecialSymbolsCheckBox.Checked;
+		}
 	}
 }

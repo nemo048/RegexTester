@@ -438,6 +438,7 @@
 			this.ShowSpecialSymbolsCheckBox.TabIndex = 1;
 			this.ShowSpecialSymbolsCheckBox.Text = "Показывать специальные символы";
 			this.ShowSpecialSymbolsCheckBox.UseVisualStyleBackColor = true;
+			this.ShowSpecialSymbolsCheckBox.CheckStateChanged += new System.EventHandler(this.ShowSpecialSymbolsCheckBox_CheckStateChanged_1);
 			// 
 			// TextForTestingRichTextBox
 			// 
